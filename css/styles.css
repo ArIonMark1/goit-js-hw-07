@@ -32,6 +32,9 @@
   object-fit: cover;
   transition: transform var(--animation-duration) var(--timing-function);
 }
+/* .gallery__image.is-active {
+  transform: perspective(400px) rotateX(10deg);
+} */
 
 .gallery__link {
   display: block;
