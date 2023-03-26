@@ -42,6 +42,7 @@ function onImageClick(event) {
 
 
 function createModalWindow(target) { 
+    
     // створення модального вікна та його розмітки з даними
     const instance = basicLightbox.create(
         `<div class="modal-image">
